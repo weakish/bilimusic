@@ -22,7 +22,7 @@ def run():
     parser.add_argument('-o', '--offset_cover', type=float,
                         help='the percentage to offset cover')
     parser.add_argument('-ar', '--artist',  help='the artist')
-    parser.add_argument('-t', '--title',  help='the artist')
+    parser.add_argument('-t', '--title',  help='the title')
     parser.add_argument('-al', '--album',  help='the album')
 
     args = parser.parse_args()
